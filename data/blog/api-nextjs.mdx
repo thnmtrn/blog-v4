@@ -1,0 +1,31 @@
+---
+title: sample next api calls
+date: '2021-03-08'
+tags: ['markdown', 'api', 'notes']
+draft: false
+summary: Example of a api calls
+---
+
+```js
+export async function getStaticProps(context) {
+  return {
+    props: {}
+  };
+}
+```
+
+then we add try catch
+
+```js
+export async function getStaticProps(context) {
+  try {
+    const res = await fetch('');
+    const data = await res.json();
+  } catch (err) {
+    console.error(err);
+  }
+  return {
+    props: {}
+  };
+}
+```
