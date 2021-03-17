@@ -4,6 +4,7 @@ import projectsData from '@/data/projectsData'
 import Link from '@/components/Link'
 import Card from '@/components/Card'
 import { PageSeo } from '@/components/SEO'
+import ProjectsCardSm from '@/components/ProjectsCardSm'
 
 export default function Projects() {
   return (
@@ -22,14 +23,13 @@ export default function Projects() {
             Some projects I made from online classes.
           </p>
         </div>
-        <div className="container py-12">
-          <div className="flex flex-wrap -m-4">
+        <div className="container">
+          <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 w-full mt-4">
             {projectsData.map((d) => (
-              <Card
+              <ProjectsCardSm
                 key={d.title}
                 title={d.title}
                 description={d.description}
-                imgSrc={d.imgSrc}
                 href={d.href}
               />
             ))}
