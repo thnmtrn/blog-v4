@@ -3,6 +3,12 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 })
 
 module.exports = withBundleAnalyzer({
+  images: {
+    domains: [
+      'i.scdn.co', // Spotify Album Art
+      'pbs.twimg.com', // Twitter Profile Picture
+    ],
+  },
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   experimental: {
     modern: true,
