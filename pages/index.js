@@ -30,7 +30,6 @@ export default function Home({ posts }) {
             {siteMetadata.description}
           </p>
 
-
           <h1 className="text-3xl font-bold pt-10">Latest Blog Posts</h1>
         </div>
 
@@ -52,7 +51,7 @@ export default function Home({ posts }) {
                             >
                               {title}
                             </Link>
-                    {/* <dl>
+                            {/* <dl>
                       <dt className="sr-only">Published on</dt>
                       <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
                         <time dateTime={date}>

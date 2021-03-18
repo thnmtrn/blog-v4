@@ -1,5 +1,13 @@
 # personal blog v4
 
+## Todo
+
+- add languages
+- add movies
+- add music
+- add books
+- hobbies
+
 ## Features
 
 - Easy styling customization with [Tailwind 2.0](https://blog.tailwindcss.com/tailwindcss-v2)

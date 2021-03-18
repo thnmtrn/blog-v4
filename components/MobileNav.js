@@ -11,6 +11,7 @@ import Close from './icons/close.svg'
 import Tags from './icons/tags.svg'
 import Scissors from './icons/scissors.svg'
 import Burger from './icons/burger.svg'
+import Pizza from './icons/pizza.svg'
 
 const MobileNav = () => {
   const [navShow, setNavShow] = useState(false)
@@ -35,6 +36,7 @@ const MobileNav = () => {
       <Link href="/tags/bookmark" className="hover:text-red-800 dark:hover:text-blue-600 text-gray-900 dark:text-gray-300 opacity-50"><Bookmark className="m-1"/></Link>
       <Link href="/tags/notes" className="hover:text-blue-800 dark:hover:text-green-600 text-gray-900 dark:text-gray-300 opacity-50"><Lightning className="m-1"/></Link>
       <Link href="/snippets" className="hover:text-purple-800 dark:hover:text-pink-600 text-gray-900 dark:text-gray-300 opacity-50"><Scissors className="m-1"/></Link>
+      <Link href="/extras" className="hover:text-purple-800 dark:hover:text-pink-600 text-gray-900 dark:text-gray-300 opacity-50"><Pizza className="m-1"/></Link>
       <button
         type="button"
         className="text-pink-800 dark:text-blue-600"
