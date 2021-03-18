@@ -8,7 +8,7 @@ const projectsData = [
   {
     title: 'pokedex',
     description: `pokedex with all gen 1-8 pokemons with details, build with tailwind and nextjs`,
-    imgSrc: '/static/images/google.png',
+    imgSrc: '/static/images/pokedex.png',
     href: 'https://thien.gg/pokedex',
   },
   {
@@ -19,21 +19,21 @@ const projectsData = [
   },
   {
     title: 'coach thai',
-    description: `notes app with react`,
+    description: `Personal website for a basketball coach. `,
     imgSrc: '/static/images/google.png',
-    href: '/projects',
+    href: 'https://coachthai.me',
   },
   {
     title: 'annies nail spa',
-    description: `notes app with react`,
+    description: `Nail Salon Landing page with nextjs, tailwind. Includes staff, products, colors, and appointments`,
     imgSrc: '/static/images/ocean.jpeg',
-    href: '/projects',
+    href: 'https://annienailspa.com',
   },
   {
     title: 'nice dist co',
     description: `notes app with react`,
     imgSrc: '/static/images/google.png',
-    href: '/projects',
+    href: 'https://nicedist.co',
   },
   {
     title: 'Vite Vue Blog',
@@ -49,9 +49,21 @@ const projectsData = [
   },
   {
     title: 'Discord Bot',
-    description: `blog v2 with vite`,
+    description: `a friendly discord bot built with discordjs and commandojs.`,
+    imgSrc: '/static/images/google.png',
+    href: 'https://github.com/thnmtrn/thien-gg',
+  },
+  {
+    title: 'Netflix Clone',
+    description: `a netflix clone with Nextjs, Tailwindcss, and next-auth`,
     imgSrc: '/static/images/google.png',
     href: '/projects',
+  },
+  {
+    title: 'Norfeldt Basketball League',
+    description: `League website for town junior basketball league. Includes teams, players, stat tracker, and schedule`,
+    imgSrc: '/static/images/google.png',
+    href: 'https://norfeldtball.com',
   },
 ]
 
