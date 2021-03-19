@@ -1,0 +1,82 @@
+---
+title: 5 Javascript Shorthands
+date: '2021-03-19'
+tags: ['javascript', 'shorthand', 'notes']
+draft: false
+summary: 5 useful js shorthands
+images: []
+---
+
+## Setting the variable values
+
+Normally you would define a variable then say x = value and if you have lots of variables (obviously) then it could take more time.
+
+So you can simply define variables inside a set of square brackets then put the values on another set of square brackets like this.
+
+```javascript
+// Long Way
+let a, b, c
+
+a = 1
+b = 2
+c = 3
+
+// Short Way
+let [a, b, c] = [1, 2, 3]
+```
+
+## Using Double Bitewise NOT operator instead of Math.floor()
+
+Well you might have surely used _Math.floor()_ to get rid of the decimal points but there is an easier way of doing the same operation using the Double Bitwise NOT operator it performs the same operation much faster.
+
+```javascript
+// Long Way
+Math.floor(3.9) == 3 //true
+
+//Short Way
+~~3.9 == 3 //true
+```
+
+## For Loop Shorthand
+
+The cool way of doing for loops.
+
+```javascript
+const fruits = ['apple', 'pear', 'banana', 'pineapple']
+
+//Long Way
+for (let i = 0; i < fruits.length; i++) {
+  console.log(fruits[i])
+}
+
+//Short Way
+for (let fruits of fruits) {
+  console.log(fruits)
+}
+```
+
+## Logical AND operator
+
+Suppose you want to call a function if one condition or statement is true or false. you would say _if(something)_ then call function but instead of doing that there is a really better way of doing it which is to say _something && callFunction()_ which means if the something is true then that function is going to be called.
+
+```javascript
+//Long Way
+if (something) {
+  callFunction()
+}
+
+//Shorthand
+something && callFunction()
+```
+
+## Turning array into object
+
+You might do a lot of things in order to just turn an array into an object. but the simplest way I think is to use the so-called spread operator or the ... operator
+
+```javascript
+const array = [1, 2, 3]
+
+const onject = { ...array }
+```
+
+I hope this can be some use to some of you. As a self taught developer, I understand how fustrating it can be when you learn all that javascript but being confused with all the newer syntax. And for more experienced developers, hopefully this speeds up your work flow. Cheers!
