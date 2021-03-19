@@ -35,15 +35,10 @@ export default function About() {
           </div>
           <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">
             <p>
-            Hey, I am Thien Tran, a javascript enthusiast. I’m pursuing a career in web development. This is one of my homepages I’ve built to test out some new technolgies I’ve learned.
-
-I am currently a freelance developer. I am an advocate of minimalist, user friendly, and helpful apps. My current favorite stack is nextjs, reactjs, tailwindcss, and MongoDB. As a job-seeker and student, I’m always curious and trying out new technologies.
+            Hey, I am Thien Tran, a javascript enthusiast. I am an advocate of minimalist, user friendly, and helpful apps. My current favorite stack is nextjs, reactjs, tailwindcss, and MongoDB. I blog to continue learning and share with others. I’m always curious and trying out new technologies.
             </p>
             <p>
-            I am javascript enthusiast, currently going through the freecodecamp and theOdinProject developer program online. This is my personal homepage where I test out some of the new materials I learn.
-            </p>
-            <p>
-            I have an innate desire to create - websites, programs, pictures, videos, music - you name it. My passion lies in the instersion of creation and communication. I want to create tools to help humans solve problems better and faster.
+            I have an innate desire to create - websites, programs, pictures, videos, art - you name it. My work is a mix of minimalist design and advanced functionality. I want to create tools to help humans solve problems better and faster.
             </p>
           </div>
         </div>
