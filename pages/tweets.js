@@ -1,6 +1,6 @@
-import SectionContainer from '@/components/SectionContainer';
-import Tweet from '@/components/Tweet';
-import { getTweets } from '@/lib/twitter';
+import SectionContainer from '@/components/SectionContainer'
+import Tweet from '@/components/Tweet'
+import { getTweets } from '@/lib/twitter'
 
 export default function Tweets({ tweets }) {
   return (
@@ -13,21 +13,20 @@ export default function Tweets({ tweets }) {
           Tweets
         </h1>
         <p className="text-gray-600 dark:text-gray-400 mb-4">
-          This is a collection of tweets I've enjoyed. I use Twitter quite a
-          bit, so I wanted a place to publicly share what inspires me, makes me
-          laugh, and makes me think.
+          This is a collection of tweets I've enjoyed. I use Twitter quite a bit, so I wanted a
+          place to publicly share what inspires me, makes me laugh, and makes me think.
         </p>
         {tweets.map((tweet) => (
           <Tweet key={tweet.id} {...tweet} />
         ))}
       </div>
     </SectionContainer>
-  );
+  )
 }
 
 export async function getStaticProps() {
   const tweets = await getTweets([
-    '935857414435495937',
+    '1352315936808837123',
     '1334528781139259400',
     '1334334544598740994',
     '826528907381739520',
@@ -44,8 +43,7 @@ export async function getStaticProps() {
     '1342869937841266688',
     '1116362674319908864',
     '1331380003716681728',
-    '1002104154737684480'
-  ]);
+  ])
 
-  return { props: { tweets } };
+  return { props: { tweets } }
 }
