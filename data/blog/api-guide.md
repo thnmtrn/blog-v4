@@ -1,5 +1,5 @@
 ---
-title: My fancy title
+title: API guide
 date: '2021-01-31'
 tags: ['hello']
 draft: true
@@ -7,4 +7,4 @@ summary:
 images: []
 ---
 
-Draft post which should not display
+## API Guide
