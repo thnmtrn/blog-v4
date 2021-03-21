@@ -6,6 +6,7 @@ import MDXComponents from '@/components/MDXComponents'
 import PageTitle from '@/components/PageTitle'
 import generateRss from '@/lib/generate-rss'
 
+// tell next.js how many pages there are
 export async function getStaticPaths() {
   const posts = await getFiles('blog')
 
@@ -19,6 +20,7 @@ export async function getStaticPaths() {
   }
 }
 
+// for each individual page: get the data for that page
 export async function getStaticProps({ params }) {
   const allPosts = await getAllFilesFrontMatter('blog')
   const postIndex = allPosts.findIndex((post) => post.slug === params.slug)
