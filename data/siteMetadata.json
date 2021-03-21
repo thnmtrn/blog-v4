@@ -1,5 +1,5 @@
 {
-  "title": "thien v3",
+  "title": "thien v4",
   "author": "Thien Tran",
   "headerTitle": "Thien Tran",
   "description": "You've found my personal space on the internet.",
@@ -7,7 +7,7 @@
   "siteUrl": "https://thientran.me",
   "siteRepo": "https://github.com/thnmtrn/blog",
   "image": "/static/images/avatar.png",
-  "socialBanner": "/static/images/twitter-card.png",
+  "socialBanner": "/static/images/thien-blog-logo.png",
   "email": "hi@thientran.me",
   "github": "https://github.com/thnmtrn",
   "twitter": "https://twitter.com/thnmtrn",
