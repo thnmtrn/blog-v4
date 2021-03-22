@@ -1,0 +1,105 @@
+---
+title: setTimeout in react hooks
+date: '2021-03-18'
+tags: ['react', 'javascript', 'hooks', 'notes']
+draft: false
+summary: learn how setTimeout is used in react
+images: []
+---
+
+# How to use the setTimeout in React Hooks
+
+In this tutorial, we are going to learn about the usage of setTimeout function in React hooks with the help of examples.
+
+## What is setTimeout function?
+
+The ==setTimeout()== function is used to invoke a function or a piece of code after a specified amout of time is completed.
+
+example:
+
+```js
+setTimeout(() => {
+  console.log('you can see me after 2 seconds')
+}, 2000)
+```
+
+## Using the setTimeout in React hooks
+
+We can use the setTimeout funtion in React hooks just like how we use it in JavaScript.
+
+In this example, we have use the setTImeout function inside useEffect hook to udate the count value from 0 to 1 after a 3000 milliseconds (3 sec) is finished.
+
+```js
+import React, { useState, useEffect } from 'react'
+
+export default function App() {
+  const [count, setCount] = useState(0)
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setCount(1)
+    }, 3000)
+  }, [])
+
+  return (
+    <div className="App">
+      <h1>{count}</h1>
+      <button onClick={() => setCount(count + 1)}>Increment</button>
+    </div>
+  )
+}
+```
+
+## Clearing setTimeout
+
+to clear the SetTimeout, we need to call the clearTimeout method by passing our timeout variable as an argument.
+
+```js
+import React, { useState, useEffect } from 'react'
+
+export default function App() {
+  const [count, setCount] = useState(0)
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setCount(1)
+    }, 3000)
+
+    return () => clearTimeout(timeout)
+  }, [])
+
+  return (
+    <div className="App">
+      <h1>{count}</h1>
+      <button onClick={() => setCount(count + 1)}>Increment</button>
+    </div>
+  )
+}
+```
+
+If you want to run s setTimeout function whenever a component sate is updated, you need to pass the condition to an empty array [].
+
+```js
+import React, { useState, useEffect } from 'react'
+
+export default function App() {
+  const [count, setCount] = useState(0)
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setCount(1)
+    }, 3000)
+
+    return () => clearTimeout(timeout)
+  }, [count])
+
+  return (
+    <div className="App">
+      <h1>{count}</h1>
+      <button onClick={() => setCount(count + 1)}>Increment</button>
+    </div>
+  )
+}
+```
+
+Here we passed count as a condition to the array so that setTimeout function runs initially and also when a count value is changed.
