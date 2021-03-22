@@ -25,6 +25,14 @@ module.exports = {
       },
       colors: {
         blue: colors.lightBlue,
+        fuchsia: colors.fuchsia,
+        rose: colors.rose,
+        violet: colors.violet,
+        orange: colors.orange,
+        amber: colors.amber,
+        lime: colors.lime,
+        cyan: colors.cyan,
+        teal: colors.teal,
         code: {
           green: '#b5f4a5',
           yellow: '#ffe484',

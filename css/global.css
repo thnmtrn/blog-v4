@@ -52,31 +52,31 @@ html {
   @apply text-gray-700 dark:text-gray-300;
 }
 .token.prolog {
-  @apply text-purple-500 dark:text-red-500;
+  @apply text-teal-500 dark:text-red-500;
 }
 .token.doctype {
-  @apply text-purple-500 dark:text-pink-500;
+  @apply text-cyan-500 dark:text-pink-500;
 }
 .token.cdata {
-  @apply text-purple-700 dark:text-indigo-300;
+  @apply text-rose-700 dark:text-indigo-300;
 }
 
 .token.punctuation {
-  @apply text-yellow-600 dark:text-yellow-300;
+  @apply text-orange-600 dark:text-yellow-300;
 }
 
 .token.property {
-  @apply text-yellow-700 dark:text-indigo-700;
+  @apply text-lime-700 dark:text-indigo-700;
 }
 .token.tag,
 .token.boolean {
-  @apply text-green-500 dark:text-purple-500;
+  @apply text-violet-500 dark:text-rose-500;
 }
 .token.number {
-  @apply text-red-500 dark:text-blue-500;
+  @apply text-rose-500 dark:text-blue-500;
 }
 .token.constant {
-  @apply text-green-500 dark:text-indigo-500;
+  @apply text-orange-500 dark:text-indigo-500;
 }
 .token.symbol {
   @apply text-yellow-500 dark:text-green-500;
@@ -89,16 +89,16 @@ html {
   @apply text-green-500 dark:text-red-500;
 }
 .token.attr-name {
-  @apply text-red-500 dark:text-green-500;
+  @apply text-cyan-500 dark:text-green-500;
 }
 .token.string {
-  @apply text-yellow-700 dark:text-purple-200;
+  @apply text-teal-700 dark:text-purple-200;
 }
 .token.char {
-  @apply text-blue-500 dark:text-purple-300;
+  @apply text-blue-500 dark:text-rose-300;
 }
 .token.builtin {
-  @apply text-purple-500 dark:text-purple-500;
+  @apply text-purple-500 dark:text-amber-500;
 }
 .token.inserted {
   @apply text-blue-500;
@@ -111,14 +111,14 @@ html {
 .token.url,
 .language-css .token.string,
 .style .token.string {
-  @apply text-yellow-500;
+  @apply text-rose-500;
 }
 
 .token.atrule {
-  @apply text-purple-900 dark:text-purple-400;
+  @apply text-amber-900 dark:text-purple-400;
 }
 .token.attr-value {
-  @apply text-pink-700 dark:text-purple-300;
+  @apply text-pink-700 dark:text-cyan-300;
 }
 .token.keyword {
   @apply text-blue-800 dark:text-green-200;
@@ -128,20 +128,20 @@ html {
   @apply text-purple-700 dark:text-purple-200;
 }
 .token.class-name {
-  @apply text-purple-800 dark:text-blue-200;
+  @apply text-violet-800 dark:text-blue-200;
 }
 
 .token.regex,
 .token.important,
 .token.variable {
-  @apply text-yellow-500 dark:text-green-500;
+  @apply text-amber-500 dark:text-green-500;
 }
 
 code[class*='language-'] {
-  @apply text-purple-800 dark:text-pink-200;
+  @apply text-purple-800 dark:text-orange-200;
 }
 pre[class*='language-'] {
-  @apply text-green-900 dark:text-pink-200;
+  @apply text-lime-900 dark:text-pink-200;
 }
 
 pre::-webkit-scrollbar {
@@ -154,7 +154,7 @@ pre {
 }
 
 .remark-code-title {
-  @apply text-pink-800 dark:text-pink-200 px-5 py-3 border border-b-0 border-gray-200 dark:border-gray-700 rounded-t bg-gray-200 dark:bg-gray-800 text-sm font-mono font-bold;
+  @apply text-cyan-800 dark:text-teal-200 px-5 py-3 border border-b-0 border-gray-200 dark:border-gray-700 rounded-t bg-gray-200 dark:bg-gray-800 text-sm font-mono font-bold;
 }
 
 .remark-code-title + pre {
@@ -162,7 +162,7 @@ pre {
 }
 
 .mdx-marker {
-  @apply block -mx-4 px-4 bg-green-100 dark:bg-green-800 border-l-4 border-blue-500;
+  @apply block -mx-4 px-4 bg-violet-100 dark:bg-rose-800 border-l-4 border-blue-500;
 }
 
 /* Remove Safari input shadow on mobile */
