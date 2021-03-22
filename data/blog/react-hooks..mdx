@@ -3,7 +3,7 @@ title: React Hooks
 date: '2021-03-19'
 tags: ['hooks', 'react', 'notes']
 draft: false
-summary: Learn what hooks are, why they are useful, and how to use them.
+summary: Learn what hooks are, why they are useful, and how to use them. useState, useEffect, useRef, useReducer
 images: []
 ---
 
@@ -15,8 +15,33 @@ his new feature was added in React version 16.8. With the help of React Hooks, y
 
 5 most common hooks are:
 
+## useState()
+
 - useState: Most of the time in your React app you will be using this concept to store and manage the data.
+
+## useEffect()
+
 - useEffect: You will be using this concept in actions like HTTP requests and working with the Browser API.
+
+```js
+import React, { useState, useEffect } from 'react'
+
+function Example() {
+  const [count, setCount] = useState(0)
+
+  useEffect(() => {
+    document.title = `You clicked ${count} times`
+  })
+
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>Click me</button>
+    </div>
+  )
+}
+```
+
 - useRef: This will be used to reference JSX elements.
 - useContext: This property of React Hooks will be used to access data from React Context to share data among components easily (instead of passing props)
 - useReducer: This concept in React hooks will be used to store and manage data across multiple components.

@@ -22,6 +22,7 @@ function Countdown() {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
   const [year] = useState(new Date().getFullYear());
 
+  //update every second
   useEffect(() => {
     setTimeout(() => {
       setTimeLeft(calculateTimeLeft());
