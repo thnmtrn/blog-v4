@@ -1,4 +1,3 @@
-import '@/css/tailwind.css'
 import '@/css/global.css'
 
 import { MDXProvider } from '@mdx-js/react'
