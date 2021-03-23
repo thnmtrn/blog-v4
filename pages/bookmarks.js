@@ -7,7 +7,7 @@ import { PageSeo } from '@/components/SEO'
 
 export default function Bookmarks() {
   return (
-    <>
+    <div className="sm:w-full">
       <PageSeo
         title={`bookmarks - ${siteMetadata.author}`}
         description={siteMetadata.description}
@@ -36,6 +36,6 @@ export default function Bookmarks() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }

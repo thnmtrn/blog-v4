@@ -184,3 +184,14 @@ input[type='email'] {
 .step > h3 {
   @apply my-0;
 }
+
+.post {
+  width: 100px;
+}
+
+.reading-progress-bar {
+  position: sticky;
+  height: 5px;
+  top: 0;
+
+}

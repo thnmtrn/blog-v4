@@ -4,6 +4,8 @@ import SectionContainer from '@/components/SectionContainer'
 import { BlogSeo } from '@/components/SEO'
 import Tag from '@/components/Tag'
 import siteMetdata from '@/data/siteMetadata'
+import ReadingProgress from '@/components/ReadingProgress'
+import { useRef } from 'react'
 
 const editUrl = (fileName) => `${siteMetdata.siteRepo}/blob/master/data/blog/${fileName}`
 const discussUrl = (slug) =>
@@ -13,8 +15,11 @@ const postDateTemplate = { weekday: 'long', year: 'numeric', month: 'long', day:
 
 export default function PostLayout({ children, frontMatter, next, prev }) {
   const { slug, fileName, date, title, tags } = frontMatter
+  const target = React.createRef()
 
   return (
+    <>
+    <ReadingProgress target={target}/>
     <SectionContainer>
       <BlogSeo url={`${siteMetdata.siteUrl}/blog/${frontMatter.slug}`} {...frontMatter} />
       <article>
@@ -63,8 +68,11 @@ export default function PostLayout({ children, frontMatter, next, prev }) {
                 </ul>
               </dd>
             </dl>
+            
             <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:pb-0 xl:col-span-3 xl:row-span-2">
-              <div className="pt-10 pb-8 prose dark:prose-dark max-w-sm">{children}</div>
+              <div className="pt-10 pb-8 prose dark:prose-dark max-w-sm" ref={target}>
+                {children}
+              </div>
               <div className="pt-6 pb-6 text-sm text-gray-700 dark:text-gray-300">
                 <Link href={discussUrl(slug)} rel="nofollow">
                   {'Discuss on Twitter'}
@@ -125,5 +133,6 @@ export default function PostLayout({ children, frontMatter, next, prev }) {
         </div>
       </article>
     </SectionContainer>
+    </>
   )
 }
