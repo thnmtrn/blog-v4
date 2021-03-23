@@ -1,0 +1,126 @@
+---
+title: Blog Progess Bar
+date: '2021-03-22'
+tags: ['hooks', 'react', 'javascript', 'guide', 'notes']
+draft: false
+summary: Add a reading progress to your blog
+images: []
+---
+Reading progress bars is a nice ways to keep readers engaged. Plus they are pretty. Lets see how we can add it to our blog using react components and hooks.
+
+## The ReadingProgress Component
+
+Our ReadingProgress component will do the follwing things:
+
+- make use of useState hook which will be responsible for reading and setting our reading progress
+- make use of the useEffect hook which will be responsible for handling the scroll event and properly update our progress bar on scroll
+- return the reading progres bar with the proper width
+
+So let's dive into the implementation:
+
+```js
+const ReadingProgress = ({ target }) => {
+  const [readingProgress, setReadingProgress] = useState(0);
+    
+  return <div className={`reading-progress-bar`} style={{width: `${readingProgress}%` }} />
+};
+```
+This is the foundation for our component. readingProgress will be used as width (in percent) for our progress bar. The only prop for our component is target, which will be a reference to our DOM container of the post - more on that in a few moments.
+
+First let's implement our listener, which will update our progress bar on scroll events:
+
+```js
+const scrollListener = () => {
+    if (!target.current) {
+      return;
+    }
+
+    const element         = target.current;
+    const totalHeight     = element.clientHeight - element.offsetTop;
+    const windowScrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+
+    if (windowScrollTop === 0) {
+      return setReadingProgress(0);
+    }
+
+    if (windowScrollTop > totalHeight) {
+      return setReadingProgress(100);
+    }
+    
+    console.log(windowScrollTop);
+
+    setReadingProgress((windowScrollTop / totalHeight) * 100);
+  };
+  ```
+  
+windowScrollTop tries a bunch of different values which fixes undefined values for some browsers (e.g. Safari).
+
+There's one problem with this implementation: 100% reading progress is only achieved if we've scrolled past our target. That's pretty unlikely to be true (except you scroll one line after finished reading one line, which would make you really weird) - so we need to slightly adjust how our reading progress is calculated:
+
+```js
+const totalHeight     = element.clientHeight - element.offsetTop - window.innerHeight;
+```
+
+This should yield to a more accurate result in terms of when the bar should show finished.
+
+Next we'll put our listener into a useEffect hook, which makes our entire component to look like this:
+
+```js
+const ReadingProgress = ({ target }) => {
+  const [readingProgress, setReadingProgress] = useState(0);
+  const scrollListener = () => {
+    if (!target.current) {
+      return;
+    }
+
+    const element         = target.current;
+    const totalHeight     = element.clientHeight - element.offsetTop - (window.innerHeight);
+    const windowScrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+
+    if (windowScrollTop === 0) {
+      return setReadingProgress(0);
+    }
+
+    if (windowScrollTop > totalHeight) {
+      return setReadingProgress(100);
+    }
+
+    setReadingProgress((windowScrollTop / totalHeight) * 100);
+  };
+  
+  useEffect(() => {
+    window.addEventListener("scroll", scrollListener);
+    return () => window.removeEventListener("scroll", scrollListener);
+  });
+
+  return <div className={`reading-progress-bar`} style={{width: `${readingProgress}%`}} />;
+};
+```
+
+The returned function from our useEffect hook is basically just what happens when the component is unmounted (see [Effects with Cleanup](https://reactjs.org/docs/hooks-effect.html#effects-with-cleanup) in the docs).
+
+Last but not least we need to use our component somewhere. At this point we'll need create a ref on our target container and simply pass this to our ReadingProgress component:
+
+```js
+function App() {
+  const target = React.createRef();
+  return (
+    <>
+      <ReadingProgress target={target} />
+      <div className={`post`} ref={target}>post content</div>
+    </>
+  );
+}
+```
+
+Now your reading progress bar should work perfectly fine - except that you can't see it because it has no height. Fix this by adding some CSS:
+
+```css
+.reading-progress-bar {
+  position: sticky;
+  height: 5px;
+  top: 0;
+  background-color: #ff0000;
+}
+```
+Done! Now your readers no longer get lost in the sheer unending length of your posts and always know when it'll be over.
