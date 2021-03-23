@@ -191,7 +191,7 @@ input[type='email'] {
 
 .reading-progress-bar {
   position: sticky;
-  height: 5px;
+  height: 12px;
   top: 0;
 
 }

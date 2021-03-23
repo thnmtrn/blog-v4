@@ -13,7 +13,7 @@ const LayoutWrapper = ({ children }) => {
     <SectionContainer>
       <div className="flex flex-col justify-between h-screen ">
         <header className="flex items-center justify-between py-10">
-          <div>
+          <div className="">
             <Link href="/" aria-label="Thien">
               <div className="flex items-center justify-between ">
                 <div className="mr-3">
@@ -47,7 +47,9 @@ const LayoutWrapper = ({ children }) => {
           </div>
         </header>
         <main className="mb-auto">{children}</main>
-        <Link className="text-normal font-mono text-blue-700 dark:text-green-500"><a href="/">cd ..</a></Link>
+        <Link className="text-normal font-mono text-blue-700 dark:text-green-500">
+          <a href="/">cd ..</a>
+        </Link>
         <Footer />
       </div>
     </SectionContainer>
