@@ -18,7 +18,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
 }
 
 #__next {
@@ -33,6 +33,7 @@ html {
   top: 0;
   backdrop-filter: saturate(180%) blur(20px);
   transition: background-color 0.1 ease-in-out;
+  align-self: flex-start;
 }
 
 .prose pre {
@@ -191,7 +192,7 @@ input[type='email'] {
 
 .reading-progress-bar {
   position: sticky;
-  height: 12px;
+  height: 6px;
   top: 0;
 
 }
