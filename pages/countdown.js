@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import Cheese from '@/components/icons/cheese.svg'
+import SectionContainer from '@/components/SectionContainer'
 
 function CountdownPage() {
   const calculateTimeLeft = () => {
@@ -43,27 +44,27 @@ function CountdownPage() {
     )
   })
   return (
-    <div className="text-center content-center w-full">
+    <SectionContainer className="text-center w-full">
       <div className="justify-center flex bg-fuchsia-800 dark:bg-rose-800 py-4">
         <Cheese className="w-12 h-12 text-amber-200 dark:text-yellow-300" />
       </div>
-      <div className="bg-fuchsia-700 dark:bg-rose-700 flex flex-col py-2">
+      <div className="bg-fuchsia-700 dark:bg-rose-700 flex flex-col py-2 text-center text-green-200 dark:text-cyan-200">
         <p className="font-semibold">days: </p>{' '}
         <p className="text-4xl font-extrabold">{timeLeft.days}</p>
       </div>
-      <div className="bg-fuchsia-600 dark:bg-rose-600 flex flex-col py-2">
+      <div className="bg-fuchsia-600 dark:bg-rose-600 flex flex-col py-2 text-center text-green-400 dark:text-cyan-400">
         <p className="font-semibold">hours: </p>{' '}
         <p className="text-4xl font-extrabold">{timeLeft.hours}</p>
       </div>
-      <div className="bg-fuchsia-400 dark:bg-rose-400 flex flex-col py-2">
+      <div className="bg-fuchsia-400 dark:bg-rose-400 flex flex-col py-2 text-center text-green-600 dark:text-cyan-600">
         <p className="font-semibold">minutes: </p>{' '}
         <p className="text-4xl font-extrabold">{timeLeft.minutes}</p>
       </div>
-      <div className="bg-fuchsia-200 dark:bg-rose-200 flex flex-col py-2">
+      <div className="bg-fuchsia-200 dark:bg-rose-200 flex flex-col py-2 text-center text-green-800 dark:text-cyan-800">
         <p className="font-semibold">seconds: </p>{' '}
         <p className="text-4xl font-extrabold">{timeLeft.seconds}</p>
       </div>
-    </div>
+    </SectionContainer>
   )
 }
 
