@@ -7,7 +7,7 @@ export default function ProjectCard({ title, description, href, icon }) {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <div className="flex items-center border border-gray-200 dark:border-gray-800 rounded p-4">
+        <div className="flex items-center border border-gray-200 dark:border-gray-800 rounded p-4 mb-2">
           {icon == 'react2025' && (
             <div className="h-8 w-8 ml-2 mr-4">
               <span className="sr-only">React 2025</span>

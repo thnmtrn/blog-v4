@@ -3,17 +3,27 @@ import { PageSeo } from '@/components/SEO'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
+import Tweet from '@/components/Tweet'
+import { getTweets } from '@/lib/twitter'
+import ProjectCard from '@/components/ProjectCard'
 
 const MAX_DISPLAY = 5
 const postDateTemplate = { year: 'numeric', month: 'long', day: 'numeric' }
 
 export async function getStaticProps() {
   const posts = await getAllFilesFrontMatter('blog')
+  const tweets = await getTweets([
+    '1190125711467655169',
+    '1352315936808837123',
+    '1326969029140025351',
+  ])
 
-  return { props: { posts } }
+  return {
+    props: { tweets, posts },
+  }
 }
 
-export default function Home({ posts }) {
+export default function Home({ posts, tweets }) {
   return (
     <>
       <PageSeo
@@ -99,6 +109,48 @@ export default function Home({ posts }) {
           </Link>
         </div>
       )}
+      <h1 className="text-3xl font-extrabold pt-10 pb-4">Recent Projects</h1>
+      <ProjectCard
+        title="project 1"
+        description="asdfsf"
+        href="https://thientran.me"
+        icon="react2025"
+      />
+      <ProjectCard
+        title="project 2"
+        description="asdfsf"
+        href="https://thientran.me"
+        icon="react2025"
+      />
+      <ProjectCard
+        title="project 3"
+        description="asdfsf"
+        href="https://thientran.me"
+        icon="react2025"
+      />
+      <div className="flex justify-end text-base font-medium leading-6">
+        <Link
+          href="/projects"
+          className="text-blue-500 hover:text-blue-600 dark:hover:text-blue-400"
+          aria-label="all posts"
+        >
+          More Projects &rarr;
+        </Link>
+      </div>
+
+      <h1 className="text-3xl font-extrabold pt-10">Latest Tweets</h1>
+      {tweets.map((tweet) => (
+        <Tweet key={tweet.id} {...tweet} />
+      ))}
+            <div className="flex justify-end text-base font-medium leading-6">
+        <Link
+          href="https://twitter.com/thienmtran"
+          className="text-blue-500 hover:text-blue-600 dark:hover:text-blue-400"
+          aria-label="all posts"
+        >
+          More Tweets &rarr;
+        </Link>
+      </div>
     </>
   )
 }
