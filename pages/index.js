@@ -6,6 +6,7 @@ import { getAllFilesFrontMatter } from '@/lib/mdx'
 import Tweet from '@/components/Tweet'
 import { getTweets } from '@/lib/twitter'
 import ProjectCard from '@/components/ProjectCard'
+import projectsData from '@/data/projectsData'
 
 const MAX_DISPLAY = 5
 const postDateTemplate = { year: 'numeric', month: 'long', day: 'numeric' }
@@ -120,14 +121,32 @@ export default function Home({ posts, tweets }) {
         title="project 2"
         description="asdfsf"
         href="https://thientran.me"
-        icon="react2025"
+        icon="codingbraces"
       />
       <ProjectCard
         title="project 3"
         description="asdfsf"
         href="https://thientran.me"
-        icon="react2025"
+        icon="codingbrackets"
       />
+      <ProjectCard title="project 3" description="asdfsf" href="https://thientran.me" icon="todo" />
+      <ProjectCard
+        key="pokedex"
+        title={projectsData.title}
+        description="asdfsf"
+        href="https://thientran.me"
+        icon="pokeball"
+      />
+      {projectsData.map((d) =>  (
+
+        <ProjectCard
+          key={d.title}
+          title={d.title}
+          description={d.description}
+          href={d.href}
+          icon={d.icon}
+        />
+      ))}
       <div className="flex justify-end text-base font-medium leading-6">
         <Link
           href="/projects"
@@ -142,7 +161,7 @@ export default function Home({ posts, tweets }) {
       {tweets.map((tweet) => (
         <Tweet key={tweet.id} {...tweet} />
       ))}
-            <div className="flex justify-end text-base font-medium leading-6">
+      <div className="flex justify-end text-base font-medium leading-6">
         <Link
           href="https://twitter.com/thienmtran"
           className="text-blue-500 hover:text-blue-600 dark:hover:text-blue-400"

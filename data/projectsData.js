@@ -4,6 +4,7 @@ const projectsData = [
     description: `react todo app with hooks and material ui`,
     imgSrc: '/static/images/google.png',
     href: 'https://thien.gg/todo',
+    icon: "todo",
   },
   {
     title: 'pokedex',
