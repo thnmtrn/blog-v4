@@ -10,7 +10,6 @@ export default function Footer() {
           <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} size="5" />
           <SocialIcon kind="github" href={siteMetadata.github} size="5" />
           <SocialIcon kind="youtube" href={siteMetadata.youtube} size="5" />
-          <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size="5" />
           <SocialIcon kind="twitter" href={siteMetadata.twitter} size="5" />
         </div>
         <div className="flex mb-2 space-x-2 text-sm text-gray-500 dark:text-gray-400">
@@ -20,8 +19,12 @@ export default function Footer() {
           <div>{` • `}</div>
           <Link href="/">{siteMetadata.title}</Link>
         </div>
-        <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
+        <div className="mb-2 text-sm text-gray-500 dark:text-gray-400">
           <Link href="https://thientran.me">hi@thientran.me</Link>
+        </div>
+        <div className="flex flex-row mb-2 text-sm text-gray-500 dark:text-gray-400">
+          <SocialIcon kind="coffee" href={siteMetadata.coffee} size="6" />
+          <p>buy me coffee</p>
         </div>
       </div>
     </footer>
