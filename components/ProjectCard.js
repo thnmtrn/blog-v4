@@ -14,11 +14,10 @@ export default function ProjectCard({ title, description, href, icon }) {
           <div className="h-8 w-8 ml-2 mr-4">
             <span className="sr-only">React 2025</span>
             <svg
-              className="h-8 w-8 min-w-sm text-gray-900 dark:text-gray-100"
+              className="h-8 w-8 min-w-sm text-gray-900 dark:text-gray-100 iconify iconify--mdi"
               xmlns="http://www.w3.org/2000/svg"
               aria-hidden="true"
               role="img"
-              class="iconify iconify--mdi"
               width="32"
               height="32"
               preserveAspectRatio="xMidYMid meet"
@@ -35,11 +34,10 @@ export default function ProjectCard({ title, description, href, icon }) {
           <div className="h-8 w-8 ml-2 mr-4">
             <span className="sr-only">todo</span>
             <svg
-              className="h-8 w-8 min-w-sm text-gray-900 dark:text-gray-100"
+              className="h-8 w-8 min-w-sm text-gray-900 dark:text-gray-100 iconify iconify--mdi"
               xmlns="http://www.w3.org/2000/svg"
               aria-hidden="true"
               role="img"
-              class="iconify iconify--mdi"
               width="32"
               height="32"
               preserveAspectRatio="xMidYMid meet"
@@ -56,11 +54,10 @@ export default function ProjectCard({ title, description, href, icon }) {
           <div className="h-8 w-8 ml-2 mr-4">
             <span className="sr-only">Coding Braces</span>
             <svg
-              className="h-8 w-8 min-w-sm text-gray-900 dark:text-gray-100"
+              className="h-8 w-8 min-w-sm text-gray-900 dark:text-gray-100 iconify iconify--mdi"
               xmlns="http://www.w3.org/2000/svg"
               aria-hidden="true"
               role="img"
-              class="iconify iconify--mdi"
               width="32"
               height="32"
               preserveAspectRatio="xMidYMid meet"
@@ -77,11 +74,10 @@ export default function ProjectCard({ title, description, href, icon }) {
           <div className="h-8 w-8 ml-2 mr-4">
             <span className="sr-only">pokeball</span>
             <svg
-              className="h-8 w-8 min-w-sm text-gray-900 dark:text-gray-100"
+              className="h-8 w-8 min-w-sm text-gray-900 dark:text-gray-100 iconify iconify--mdi"
               xmlns="http://www.w3.org/2000/svg"
               aria-hidden="true"
               role="img"
-              class="iconify iconify--mdi"
               width="32"
               height="32"
               preserveAspectRatio="xMidYMid meet"
@@ -98,11 +94,10 @@ export default function ProjectCard({ title, description, href, icon }) {
           <div className="h-8 w-8 ml-2 mr-4">
             <span className="sr-only">Coding Brackets</span>
             <svg
-              className="h-8 w-8 min-w-sm text-gray-900 dark:text-gray-100"
+              className="h-8 w-8 min-w-sm text-gray-900 dark:text-gray-100 iconify iconify--mdi"
               xmlns="http://www.w3.org/2000/svg"
               aria-hidden="true"
               role="img"
-              class="iconify iconify--mdi"
               width="32"
               height="32"
               preserveAspectRatio="xMidYMid meet"
