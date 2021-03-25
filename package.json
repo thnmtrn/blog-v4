@@ -31,6 +31,7 @@
     "querystring": "^0.2.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "react-slick": "^0.28.1",
     "reading-time": "1.2.1",
     "rehype-katex": "^4.0.0",
     "remark-autolink-headings": "6.0.1",

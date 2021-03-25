@@ -7,9 +7,17 @@ import Tweet from '@/components/Tweet'
 import { getTweets } from '@/lib/twitter'
 import ProjectCard from '@/components/ProjectCard'
 import projectsData from '@/data/projectsData'
+import Slider from 'react-slick'
 
 const MAX_DISPLAY = 5
 const postDateTemplate = { year: 'numeric', month: 'long', day: 'numeric' }
+const settings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+}
 
 export async function getStaticProps() {
   const posts = await getAllFilesFrontMatter('blog')
@@ -111,6 +119,7 @@ export default function Home({ posts, tweets }) {
         </div>
       )}
       <h1 className="text-3xl font-extrabold pt-10 pb-4">Recent Projects</h1>
+
       <ProjectCard
         title="project 1"
         description="asdfsf"
@@ -137,8 +146,8 @@ export default function Home({ posts, tweets }) {
         href="https://thientran.me"
         icon="pokeball"
       />
-      {projectsData.map((d) =>  (
 
+      {projectsData.map((d) => (
         <ProjectCard
           key={d.title}
           title={d.title}
@@ -158,6 +167,7 @@ export default function Home({ posts, tweets }) {
       </div>
 
       <h1 className="text-3xl font-extrabold pt-10">Latest Tweets</h1>
+
       {tweets.map((tweet) => (
         <Tweet key={tweet.id} {...tweet} />
       ))}

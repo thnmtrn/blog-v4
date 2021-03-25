@@ -1,6 +1,7 @@
 import NowPlaying from '@/components/NowPlaying'
 import TopTracks from '@/components/TopTracks'
 
+
 export default function Music() {
   return (
     <>
@@ -10,6 +11,7 @@ export default function Music() {
       </p>
       <TopTracks />
       <NowPlaying/>
+
     </>
   )
 }
