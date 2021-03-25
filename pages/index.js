@@ -120,7 +120,7 @@ export default function Home({ posts, tweets }) {
       )}
       <h1 className="text-3xl font-extrabold pt-10 pb-4">Recent Projects</h1>
 
-      <ProjectCard
+      {/* <ProjectCard
         title="project 1"
         description="asdfsf"
         href="https://thientran.me"
@@ -164,7 +164,7 @@ export default function Home({ posts, tweets }) {
         >
           More Projects &rarr;
         </Link>
-      </div>
+      </div> */}
 
       <h1 className="text-3xl font-extrabold pt-10">Latest Tweets</h1>
 
