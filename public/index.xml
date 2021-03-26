@@ -1,0 +1,354 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>thien v4</title>
+      <link>https://thientran.me/blog</link>
+      <description>You've found my personal space on the internet.</description>
+      <language>en-us</language>
+      <managingEditor>hi@thientran.me (Thien Tran)</managingEditor>
+      <webMaster>hi@thientran.me (Thien Tran)</webMaster>
+      <lastBuildDate>Tue, 23 Mar 2021 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://thientran.me/index.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://thientran.me/blog/10-must-know-javascript-array-methods.</guid>
+    <title>10 must know javascript array methods</title>
+    <link>https://thientran.me/blog/10-must-know-javascript-array-methods.</link>
+    <description>learn 10 most useful javascript array methods. inluding filter, map, find, reduce, findIndex, forEach, some, every, includes, indexOf,</description>
+    <pubDate>Tue, 23 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>javascript</category><category>guide</category><category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/blog-progess-bar.</guid>
+    <title>Blog Progess Bar</title>
+    <link>https://thientran.me/blog/blog-progess-bar.</link>
+    <description>Add a reading progress to your blog</description>
+    <pubDate>Mon, 22 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>hooks</category><category>react</category><category>javascript</category><category>guide</category><category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/mx-ergo-plus-review.</guid>
+    <title>Mx Ergo Plus Review</title>
+    <link>https://thientran.me/blog/mx-ergo-plus-review.</link>
+    <description>Comparison between M570 and MX Ergo plus.</description>
+    <pubDate>Mon, 22 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>tech</category><category>watercooler</category><category>reviews</category><category>uses</category><category>gadgets</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/strapi-nextjs</guid>
+    <title>Strapi and nextjs</title>
+    <link>https://thientran.me/blog/strapi-nextjs</link>
+    <description>How to get started with strapi backend and connect with nextjs</description>
+    <pubDate>Sat, 20 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>strapi</category><category>nextjs</category><category>api</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/vs-code-extensions.</guid>
+    <title>VS Code Extensions</title>
+    <link>https://thientran.me/blog/vs-code-extensions.</link>
+    <description>List of my favorite vs code extensions.</description>
+    <pubDate>Sat, 20 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>vscode</category><category>extensions</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/5-javascript-shorthands.</guid>
+    <title>5 Javascript Shorthands</title>
+    <link>https://thientran.me/blog/5-javascript-shorthands.</link>
+    <description>5 useful js shorthands</description>
+    <pubDate>Fri, 19 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>javascript</category><category>shorthand</category><category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/how-to-setup-authentication.</guid>
+    <title>How to setup Authentication</title>
+    <link>https://thientran.me/blog/how-to-setup-authentication.</link>
+    <description>Learn how to setup Authentication for web apps. Using Firebase, Auth0, Supabase. Explains sessions and redis</description>
+    <pubDate>Fri, 19 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>auth</category><category>javascript</category><category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/internationaliztion-with-react-hooks.</guid>
+    <title>Internationaliztion with React Hooks</title>
+    <link>https://thientran.me/blog/internationaliztion-with-react-hooks.</link>
+    <description>Guide to setup a toggler for languages using react hooks</description>
+    <pubDate>Fri, 19 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>react</category><category>hooks</category><category>i18n</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/my-favorite-note-taking-app.</guid>
+    <title>My Favorite Note Taking app</title>
+    <link>https://thientran.me/blog/my-favorite-note-taking-app.</link>
+    <description>Why i keep coming back to bear.</description>
+    <pubDate>Fri, 19 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>bear</category><category>watercooler</category><category>notes</category><category>ios</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/react-hooks.</guid>
+    <title>React Hooks</title>
+    <link>https://thientran.me/blog/react-hooks.</link>
+    <description>Learn what hooks are, why they are useful, and how to use them. useState, useEffect, useRef, useReducer</description>
+    <pubDate>Fri, 19 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>hooks</category><category>react</category><category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/useful-resources.</guid>
+    <title>Useful Resources</title>
+    <link>https://thientran.me/blog/useful-resources.</link>
+    <description>a ongoing list of sites useful for web dev</description>
+    <pubDate>Fri, 19 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>resource</category><category>cheatsheets</category><category>bookmarks</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/interview-questions</guid>
+    <title>MERN Interview Questions</title>
+    <link>https://thientran.me/blog/interview-questions</link>
+    <description>Sample MERN Interview questions to help you ace your 2021 interview.</description>
+    <pubDate>Thu, 18 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>career</category><category>interview</category><category>notes</category><category>react</category><category>mongodb</category><category>node</category><category>javascript</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/nextjs-data-fetching</guid>
+    <title>Next.js Data Fetching Explained</title>
+    <link>https://thientran.me/blog/nextjs-data-fetching</link>
+    <description>Detailed guide on how to fetch data in Nextjs. getServerSideProps(), getStaticProps(), and getStaticPaths().</description>
+    <pubDate>Thu, 18 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>nextjs</category><category>api</category><category>react</category><category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/settimeout-in-react-hooks</guid>
+    <title>setTimeout in react hooks</title>
+    <link>https://thientran.me/blog/settimeout-in-react-hooks</link>
+    <description>learn how setTimeout is used in react</description>
+    <pubDate>Thu, 18 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>react</category><category>javascript</category><category>hooks</category><category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/tailwind</guid>
+    <title>Tailwind Components</title>
+    <link>https://thientran.me/blog/tailwind</link>
+    <description>Collection of links to prebuilt tailwind ui and components</description>
+    <pubDate>Thu, 18 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>tailwind</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/domain-email</guid>
+    <title>domain email</title>
+    <link>https://thientran.me/blog/domain-email</link>
+    <description>custom email</description>
+    <pubDate>Tue, 09 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>email</category><category>api</category><category>new</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/fetching-data-with-swr</guid>
+    <title>swr</title>
+    <link>https://thientran.me/blog/fetching-data-with-swr</link>
+    <description>swr api call dashboard</description>
+    <pubDate>Tue, 09 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>swr</category><category>api</category><category>new</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/fonts</guid>
+    <title>fonts</title>
+    <link>https://thientran.me/blog/fonts</link>
+    <description>fonts</description>
+    <pubDate>Tue, 09 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>fonts</category><category>frontend</category><category>new</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/front-end-cheatsheet</guid>
+    <title>front end cheatsheet</title>
+    <link>https://thientran.me/blog/front-end-cheatsheet</link>
+    <description>useful links</description>
+    <pubDate>Tue, 09 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>cheatsheet</category><category>frontend</category><category>new</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/google-analytics-api-nextjs</guid>
+    <title>google anyltics api</title>
+    <link>https://thientran.me/blog/google-analytics-api-nextjs</link>
+    <description>api google</description>
+    <pubDate>Tue, 09 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>api</category><category>google</category><category>new</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/mailchimp-next-js</guid>
+    <title>mailchimp api route</title>
+    <link>https://thientran.me/blog/mailchimp-next-js</link>
+    <description>useful links</description>
+    <pubDate>Tue, 09 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>api</category><category>backend</category><category>new</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/api-nextjs</guid>
+    <title>sample next api calls</title>
+    <link>https://thientran.me/blog/api-nextjs</link>
+    <description>Example of a api calls</description>
+    <pubDate>Mon, 08 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>markdown</category><category>api</category><category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/backend</guid>
+    <title>backend</title>
+    <link>https://thientran.me/blog/backend</link>
+    <description>which backend to choose</description>
+    <pubDate>Mon, 08 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>markdown</category><category>backend</category><category>new</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/beginners-guide-to-the-programming-portfolio</guid>
+    <title>Beginner’s Guide to the Programming Portfolio</title>
+    <link>https://thientran.me/blog/beginners-guide-to-the-programming-portfolio</link>
+    <description>Beginner’s Guide to the Programming Portfolio</description>
+    <pubDate>Mon, 08 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>career</category><category>portfolio</category><category>new</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/building-my-first-electron-app</guid>
+    <title>Youtube to mp3 electron app</title>
+    <link>https://thientran.me/blog/building-my-first-electron-app</link>
+    <description>Youtube to mp3 electron app</description>
+    <pubDate>Mon, 08 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>markdown</category><category>api</category><category>new</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/cheatsheets</guid>
+    <title>cheatsheet</title>
+    <link>https://thientran.me/blog/cheatsheets</link>
+    <description>Example of a api calls</description>
+    <pubDate>Mon, 08 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>cheatsheet</category><category>api</category><category>bookmark</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/fav-restaurants</guid>
+    <title>Favorite Restuarants</title>
+    <link>https://thientran.me/blog/fav-restaurants</link>
+    <description>Example of a markdown file with code blocks and syntax highlighting</description>
+    <pubDate>Mon, 08 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>food</category><category>code</category><category>features</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/introducing-tailwind-nextjs-starter-blog</guid>
+    <title>Introducing Tailwind Nexjs Starter Blog</title>
+    <link>https://thientran.me/blog/introducing-tailwind-nextjs-starter-blog</link>
+    <description>Looking for a performant, out of the box template, with all the best in web technology to support your blogging needs? Checkout the Tailwind Nextjs Starter Blog template.</description>
+    <pubDate>Tue, 12 Jan 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>next-js</category><category>tailwind</category><category>guide</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/guide-to-using-images-in-nextjs</guid>
+    <title>Images in Next.js</title>
+    <link>https://thientran.me/blog/guide-to-using-images-in-nextjs</link>
+    <description>In this article we introduce adding images in the tailwind starter blog and the benefits and limitations of the next/image component.</description>
+    <pubDate>Wed, 11 Nov 2020 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>next js</category><category>guide</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/deriving-ols-estimator</guid>
+    <title>Deriving the OLS Estimator</title>
+    <link>https://thientran.me/blog/deriving-ols-estimator</link>
+    <description>How to derive the OLS Estimator with matrix notation and a tour of math typesetting using markdown with the help of KaTeX.</description>
+    <pubDate>Sat, 16 Nov 2019 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>next js</category><category>math</category><category>ols</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/github-markdown-guide</guid>
+    <title>Markdown Guide</title>
+    <link>https://thientran.me/blog/github-markdown-guide</link>
+    <description>Markdown cheatsheet for all your blogging needs - headers, lists, images, tables and more! An illustrated guide based on Github Flavored Markdown.</description>
+    <pubDate>Fri, 11 Oct 2019 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>github</category><category>guide</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/the-time-machine</guid>
+    <title>The Time Machine</title>
+    <link>https://thientran.me/blog/the-time-machine</link>
+    <description>The Time Traveller (for so it will be convenient to speak of him) was expounding a recondite matter to us. His pale grey eyes shone and twinkled, and his usually pale face was flushed and animated...</description>
+    <pubDate>Wed, 15 Aug 2018 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>writings</category><category>book</category><category>reflection</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/pictures-of-canada</guid>
+    <title>O Canada</title>
+    <link>https://thientran.me/blog/pictures-of-canada</link>
+    <description>The scenic lands of Canada featuring maple leaves, snow-capped mountains, turquoise lakes and Toronto. Take in the sights in this photo gallery exhibition and see how easy it is to replicate with some MDX magic and tailwind classes.</description>
+    <pubDate>Sat, 15 Jul 2017 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>holiday</category><category>canada</category><category>images</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/code-sample</guid>
+    <title>Sample .md file</title>
+    <link>https://thientran.me/blog/code-sample</link>
+    <description>Example of a markdown file with code blocks and syntax highlighting</description>
+    <pubDate>Tue, 08 Mar 2016 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>markdown</category><category>code</category><category>features</category>
+  </item>
+
+    </channel>
+  </rss>

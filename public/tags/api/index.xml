@@ -1,0 +1,104 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>thien v4</title>
+      <link>https://thientran.me/blog</link>
+      <description>You've found my personal space on the internet.</description>
+      <language>en-us</language>
+      <managingEditor>hi@thientran.me (Thien Tran)</managingEditor>
+      <webMaster>hi@thientran.me (Thien Tran)</webMaster>
+      <lastBuildDate>Sat, 20 Mar 2021 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://thientran.me/tags/api/index.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://thientran.me/blog/strapi-nextjs</guid>
+    <title>Strapi and nextjs</title>
+    <link>https://thientran.me/blog/strapi-nextjs</link>
+    <description>How to get started with strapi backend and connect with nextjs</description>
+    <pubDate>Sat, 20 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>strapi</category><category>nextjs</category><category>api</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/nextjs-data-fetching</guid>
+    <title>Next.js Data Fetching Explained</title>
+    <link>https://thientran.me/blog/nextjs-data-fetching</link>
+    <description>Detailed guide on how to fetch data in Nextjs. getServerSideProps(), getStaticProps(), and getStaticPaths().</description>
+    <pubDate>Thu, 18 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>nextjs</category><category>api</category><category>react</category><category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/domain-email</guid>
+    <title>domain email</title>
+    <link>https://thientran.me/blog/domain-email</link>
+    <description>custom email</description>
+    <pubDate>Tue, 09 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>email</category><category>api</category><category>new</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/fetching-data-with-swr</guid>
+    <title>swr</title>
+    <link>https://thientran.me/blog/fetching-data-with-swr</link>
+    <description>swr api call dashboard</description>
+    <pubDate>Tue, 09 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>swr</category><category>api</category><category>new</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/google-analytics-api-nextjs</guid>
+    <title>google anyltics api</title>
+    <link>https://thientran.me/blog/google-analytics-api-nextjs</link>
+    <description>api google</description>
+    <pubDate>Tue, 09 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>api</category><category>google</category><category>new</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/mailchimp-next-js</guid>
+    <title>mailchimp api route</title>
+    <link>https://thientran.me/blog/mailchimp-next-js</link>
+    <description>useful links</description>
+    <pubDate>Tue, 09 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>api</category><category>backend</category><category>new</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/api-nextjs</guid>
+    <title>sample next api calls</title>
+    <link>https://thientran.me/blog/api-nextjs</link>
+    <description>Example of a api calls</description>
+    <pubDate>Mon, 08 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>markdown</category><category>api</category><category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/building-my-first-electron-app</guid>
+    <title>Youtube to mp3 electron app</title>
+    <link>https://thientran.me/blog/building-my-first-electron-app</link>
+    <description>Youtube to mp3 electron app</description>
+    <pubDate>Mon, 08 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>markdown</category><category>api</category><category>new</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/cheatsheets</guid>
+    <title>cheatsheet</title>
+    <link>https://thientran.me/blog/cheatsheets</link>
+    <description>Example of a api calls</description>
+    <pubDate>Mon, 08 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>cheatsheet</category><category>api</category><category>bookmark</category>
+  </item>
+
+    </channel>
+  </rss>

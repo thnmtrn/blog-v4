@@ -1,0 +1,114 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>thien v4</title>
+      <link>https://thientran.me/blog</link>
+      <description>You've found my personal space on the internet.</description>
+      <language>en-us</language>
+      <managingEditor>hi@thientran.me (Thien Tran)</managingEditor>
+      <webMaster>hi@thientran.me (Thien Tran)</webMaster>
+      <lastBuildDate>Tue, 23 Mar 2021 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://thientran.me/tags/notes/index.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://thientran.me/blog/10-must-know-javascript-array-methods.</guid>
+    <title>10 must know javascript array methods</title>
+    <link>https://thientran.me/blog/10-must-know-javascript-array-methods.</link>
+    <description>learn 10 most useful javascript array methods. inluding filter, map, find, reduce, findIndex, forEach, some, every, includes, indexOf,</description>
+    <pubDate>Tue, 23 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>javascript</category><category>guide</category><category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/blog-progess-bar.</guid>
+    <title>Blog Progess Bar</title>
+    <link>https://thientran.me/blog/blog-progess-bar.</link>
+    <description>Add a reading progress to your blog</description>
+    <pubDate>Mon, 22 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>hooks</category><category>react</category><category>javascript</category><category>guide</category><category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/5-javascript-shorthands.</guid>
+    <title>5 Javascript Shorthands</title>
+    <link>https://thientran.me/blog/5-javascript-shorthands.</link>
+    <description>5 useful js shorthands</description>
+    <pubDate>Fri, 19 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>javascript</category><category>shorthand</category><category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/how-to-setup-authentication.</guid>
+    <title>How to setup Authentication</title>
+    <link>https://thientran.me/blog/how-to-setup-authentication.</link>
+    <description>Learn how to setup Authentication for web apps. Using Firebase, Auth0, Supabase. Explains sessions and redis</description>
+    <pubDate>Fri, 19 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>auth</category><category>javascript</category><category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/my-favorite-note-taking-app.</guid>
+    <title>My Favorite Note Taking app</title>
+    <link>https://thientran.me/blog/my-favorite-note-taking-app.</link>
+    <description>Why i keep coming back to bear.</description>
+    <pubDate>Fri, 19 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>bear</category><category>watercooler</category><category>notes</category><category>ios</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/react-hooks.</guid>
+    <title>React Hooks</title>
+    <link>https://thientran.me/blog/react-hooks.</link>
+    <description>Learn what hooks are, why they are useful, and how to use them. useState, useEffect, useRef, useReducer</description>
+    <pubDate>Fri, 19 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>hooks</category><category>react</category><category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/interview-questions</guid>
+    <title>MERN Interview Questions</title>
+    <link>https://thientran.me/blog/interview-questions</link>
+    <description>Sample MERN Interview questions to help you ace your 2021 interview.</description>
+    <pubDate>Thu, 18 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>career</category><category>interview</category><category>notes</category><category>react</category><category>mongodb</category><category>node</category><category>javascript</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/nextjs-data-fetching</guid>
+    <title>Next.js Data Fetching Explained</title>
+    <link>https://thientran.me/blog/nextjs-data-fetching</link>
+    <description>Detailed guide on how to fetch data in Nextjs. getServerSideProps(), getStaticProps(), and getStaticPaths().</description>
+    <pubDate>Thu, 18 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>nextjs</category><category>api</category><category>react</category><category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/settimeout-in-react-hooks</guid>
+    <title>setTimeout in react hooks</title>
+    <link>https://thientran.me/blog/settimeout-in-react-hooks</link>
+    <description>learn how setTimeout is used in react</description>
+    <pubDate>Thu, 18 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>react</category><category>javascript</category><category>hooks</category><category>notes</category>
+  </item>
+
+  <item>
+    <guid>https://thientran.me/blog/api-nextjs</guid>
+    <title>sample next api calls</title>
+    <link>https://thientran.me/blog/api-nextjs</link>
+    <description>Example of a api calls</description>
+    <pubDate>Mon, 08 Mar 2021 00:00:00 GMT</pubDate>
+    <author>hi@thientran.me (Thien Tran)</author>
+    <category>markdown</category><category>api</category><category>notes</category>
+  </item>
+
+    </channel>
+  </rss>
